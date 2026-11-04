@@ -1,0 +1,15 @@
+/* Sidebar */
+.app-layout { display: flex; min-height: 100vh; }
+.sidebar { width: 260px; transition: width 250ms ease; }
+.sidebar.collapsed { width: 64px; }
+.content { flex: 1; padding: 20px; }
+
+/* simple card layout */
+.card-grid { display: flex; flex-wrap: wrap; gap: 16px; }
+.card-grid .card { flex: 1 1 300px; max-width: 420px; }
+
+/* navbar right */
+.nav-right { margin-left: auto; }
+
+/* small avatar placeholder */
+.avatar { width: 34px; height: 34px; border-radius: 50%; background: #6c757d; display:inline-block; }
